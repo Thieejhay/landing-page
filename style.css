@@ -83,6 +83,7 @@
   font-size: 1.5em;
   color: #322727;
   margin-top: 2em;
+  line-height: 0px;
 }
 
 .section {
@@ -146,6 +147,8 @@ h2 {
   font-size: 1.5em;
   margin-top: 1em;
   margin-left: 31em;
+  align-self: flex-start;
+
 }
 
 .btn {
@@ -178,11 +181,36 @@ h2 {
 .proto-container{
   display: grid;
   grid-template-rows: 50px 50px 50px 50px;
-  row-gap: 0px;
+  grid-gap: 20px;
 }
 
 .proto-item {
  font-family: 'Montserrat', sans-serif;
+ font-size: 1em;
+ line-height: 5px;
+}
+
+#email {
+  width: 100%;
+  height: 50px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#submit{
+  width: 50%;
+  /*height: 50px;*/
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1A73E8;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 25px 40px;
 }
 
 h4{
@@ -190,10 +218,214 @@ h4{
   color: ;
 }
 
-/*h2{*/
-  font-size: 3em;
-  color: ;
+.partner-container {
+  display: grid;
+  grid-template-rows: 130px 130px;
+  grid-gap: 2px;
+  margin-top: 5em;
+  grid-template-columns: 330px 330px 300px 330px;
+  justify-content: center;
+  text-align: center;
 }
 
+.partner-item {
+  /*display: inline-block;*/
+  border:5px solid #bbb;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.bttns {
+  display: flex;
+  justify-content: center;
+}
+
+.btns {
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1A73E8;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 25px 40px;
+  margin-top: 7em;
+}
+
+.ibm {
+  display: flex;
+  justify-content: center;
+}
+
+.tms {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.price {
+ background-color: #04051D;
+}
+h5 {
+  color: white;
+}
+
+.pricex {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+.price-container {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 800px;
+  grid-gap: 2em;
+  text-align: center;
+  justify-content: ;
+}
+
+.price-item {
+  border: 2px solid;
+  font-size: 1.5em;
+  color: white;
+  line-height: 50px;
+  margin-bottom: 80px;
+}
+
+.btnss {
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1A73E8;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 25px 40px;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.btnsss {
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  color: #1A73E8;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 25px 40px;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+#divp {
+  margin-top: -30px;
+  color: white;
+}
+
+#free {
+  background-color: white;
+  color: black;
+}
+
+#stan {
+  background-color: #1A73E8;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: -30px;
+}
+
+#busi {
+  background-color: white;
+  color: black;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 50px;
+
+}
+.contact {
+  width: 600px;
+  border: 3px solid #ccc;
+  border-radius: 20px;
+  margin-left: 500px;
+}
+#div04 {
+  text-align: center;
+  font-size: 2em;
+  color: #000723;
+  margin-top: 5px;
+}
+
+#yname, #emaiil, #subject {
+  width: 400px;
+  height: 70px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-left: 100px;
+}
+#send {
+  width: 200px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1A73E8;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 25px 40px; 
+  margin-bottom: 15px;
+  margin-left: 100px;
+}
+
+.contactimg {
+  margin-left: 220px;
+
+}
+
+.contimg {
+  display: grid;
+  grid-template-columns: 350px 150px 150px;
+  grid-gap: 50px
+  text-align: center;
+}
+
+.contimg-item {
+  line-height: 30px;
+  font-size: 1.3em;
+  color: #322727;
+  font-family: 'Montserrat', sans-serif;
+}
+.icns {
+  padding: 1em;
+}
+
+.maps {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-bottom: ;
+}
+
+.iicon {
+  color: #1A73E8;
+  margin: 1.5em;
+  padding: 25px;
+  text-decoration: none;
+  line-height: 0px;
+  size: 50px;
+}
 
 
